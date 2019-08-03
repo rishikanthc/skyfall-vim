@@ -13,7 +13,7 @@ let g:colors_name = "fonce"
 
 "}}}
 " Vim interface {{{
-hi Normal ctermfg=252
+hi Normal ctermfg=3
 hi LineNr ctermfg=0
 hi CursorLineNr ctermbg=NONE ctermfg=6 cterm=NONE
 hi CursorLine ctermbg=1 ctermfg=NONE cterm=NONE
@@ -25,14 +25,14 @@ hi Search ctermbg=1 ctermfg=12
 hi IncSearch ctermbg=1 ctermfg=12
 hi StatusLine ctermfg=NONE ctermfg=12
 hi VertSplit ctermbg=NONE ctermfg=0 cterm=NONE
-hi Folded ctermbg=NONE ctermfg=252
-hi Conceal ctermbg=NONE ctermfg=252 cterm=NONE
+hi Folded ctermbg=NONE ctermfg=3
+hi Conceal ctermbg=NONE ctermfg=3 cterm=NONE
 
 "}}}
 " Language syntax {{{
 hi Identifier ctermfg=9 cterm=NONE
 hi Conditional ctermfg=2 cterm=NONE
-hi Operator ctermfg=253
+hi Operator ctermfg=3
 hi Statement ctermfg=15 cterm=NONE
 hi Repeat ctermfg=2 cterm=NONE
 hi Comment ctermfg=0 cterm=italic
@@ -41,7 +41,7 @@ hi Constant ctermfg=7
 hi Special ctermfg=4
 hi Todo ctermbg=NONE ctermfg=10
 hi PreProc ctermfg=9
-hi Error ctermbg=7 ctermfg=252 cterm=NONE
+hi Error ctermbg=7 ctermfg=3 cterm=NONE
 
 "}}}
 " html {{{
