@@ -46,7 +46,7 @@ let g:airline#themes#fonce#palette.normal.airline_warning = s:NWarn
 let g:airline#themes#fonce#palette.normal.airline_error = s:NError
 
 let s:IMain = [s:fonce1_gui, s:fonce14_gui, 0, 2]
-let s:IRight = [s:fonce1_gui, s:fonce9_gui, 0, 2]
+let s:IRight = [s:fonce1_gui, s:fonce9_gui, s:fonce1_term, s:fonce9_term]
 let s:IMiddle = [s:fonce5_gui, s:fonce3_gui, 7, 1]
 let s:IWarn = [s:fonce1_gui, s:fonce13_gui, s:fonce3_term, s:fonce13_term]
 let s:IError = [s:fonce0_gui, s:fonce11_gui, s:fonce1_term, s:fonce11_term]

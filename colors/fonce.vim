@@ -30,15 +30,15 @@ hi Conceal ctermbg=NONE ctermfg=3 cterm=NONE
 
 "}}}
 " Language syntax {{{
-hi Identifier ctermfg=9 cterm=NONE
+hi Identifier ctermfg=4 cterm=NONE
 hi Conditional ctermfg=2 cterm=NONE
 hi Operator ctermfg=3
 hi Statement ctermfg=15 cterm=NONE
 hi Repeat ctermfg=2 cterm=NONE
 hi Comment ctermfg=0 cterm=italic
 hi Type ctermfg=6 cterm=NONE
-hi Constant ctermfg=4
-hi Special ctermfg=4
+hi Constant ctermfg=7
+hi Special ctermfg=5
 hi Todo ctermbg=NONE ctermfg=10
 hi PreProc ctermfg=9
 hi Error ctermbg=7 ctermfg=3 cterm=NONE
