@@ -15,7 +15,7 @@ let g:colors_name = "fonce"
 " Vim interface {{{
 hi Normal ctermfg=3
 hi LineNr ctermfg=0
-hi CursorLineNr ctermbg=NONE ctermfg=6 cterm=NONE
+hi CursorLineNr ctermbg=NONE ctermfg=4 cterm=NONE
 hi CursorLine ctermbg=1 ctermfg=NONE cterm=NONE
 hi MatchParen ctermbg=None ctermfg=7 cterm=NONE
 hi TabLineSel ctermbg=NONE ctermfg=13
@@ -37,7 +37,7 @@ hi Statement ctermfg=15 cterm=NONE
 hi Repeat ctermfg=2 cterm=NONE
 hi Comment ctermfg=0 cterm=italic
 hi Type ctermfg=6 cterm=NONE
-hi Constant ctermfg=7
+hi Constant ctermfg=4
 hi Special ctermfg=4
 hi Todo ctermbg=NONE ctermfg=10
 hi PreProc ctermfg=9
