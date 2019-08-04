@@ -12,4 +12,4 @@ Install the terminal using your package manager `<Package manager> 'rishikanthc/
 
 # Screenshot
 
-![neovim](neovim.png)
+![neovim](nvim.png)
