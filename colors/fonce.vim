@@ -30,9 +30,9 @@ hi Conceal ctermbg=NONE ctermfg=3 cterm=NONE
 
 "}}}
 " Language syntax {{{
-hi Identifier ctermfg=4 cterm=NONE
+hi Identifier ctermfg=9 cterm=NONE
 hi Conditional ctermfg=2 cterm=NONE
-hi Operator ctermfg=3
+hi Operator ctermfg=4
 hi Statement ctermfg=15 cterm=NONE
 hi Repeat ctermfg=2 cterm=NONE
 hi Comment ctermfg=0 cterm=italic
