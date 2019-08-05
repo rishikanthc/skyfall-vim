@@ -6,14 +6,18 @@ the eyes.
 
 # Instructions
 
-The colors of your terminal need to be configured for this theme to work correctly.
-If you are using Termite copy the contents of the file `terminal-colors/termite` into
-your termite config file. For `.Xresources` copy the contents of `terminal-colors/Xresources`
-into your corresponding file. For all other terminals(Kitty, Konsole etc) copy the colors
-into your terminal config. If you're using iterm2 then use the attached `skyfall.itermcolors`.
+This scheme uses terminal colors. The color settings for the terminals are present in
+`terminal-colors/`. Currently Termite, Gnome, Iterm2 and any terminal that can read from
+`.Xresources` (Urxvt, Kitty, Konsole etc) are all supported. 
 
-Install the terminal using your package manager `<Package manager> 'rishikanthc/skyfall'`
-and set your colorscheme. The airline theme is set automatically.
+*Gnome:* Run `sh terminal-colors/skyfall-gnome.sh`
+*Iterm2:* Use the `terminal-colors/skyfall.itermcolors`
+*Termite:* Copy the contents of `terminal-colors/termite` into your Termite config.
+*Xresources:* For terminals that uses .X copy the contents of `terminal-colors/Xresources`
+into your corresponding Xresources file.
+
+After setting the correct terminal colors install the theme by running
+ `<Package manager> 'rishikanthc/skyfall'` and set your colorscheme using.
 ```viml
 set t_Co=16
 syntax enable
