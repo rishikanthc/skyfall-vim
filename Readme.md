@@ -10,7 +10,7 @@ The colors of your terminal need to be configured for this theme to work correct
 If you are using Termite copy the contents of the file `terminal-colors/termite` into
 your termite config file. For `.Xresources` copy the contents of `terminal-colors/Xresources`
 into your corresponding file. For all other terminals(Kitty, Konsole etc) copy the colors
-into your terminal config. I'll try to work on adding support for other terminals.
+into your terminal config. If you're using iterm2 then use the attached `skyfall.itermcolors`.
 
 Install the terminal using your package manager `<Package manager> 'rishikanthc/skyfall'`
 and set your colorscheme. The airline theme is set automatically.
@@ -31,3 +31,6 @@ colorscheme skyfall
 - Add support for NerdTree and other popular plugins
 
 [1]: https://github.com/arcticicestudio/nord-vim
+
+# Note
+This is still work in progress. Bear with me for any rough edges and feel free to contact me for any issues you face.
