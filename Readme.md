@@ -7,18 +7,24 @@ the eyes.
 # Instructions
 
 This scheme uses terminal colors. The color settings for the terminals are present in
-`terminal-colors/`. Currently Termite, Gnome, Iterm2 and any terminal that can read from
-`.Xresources` (Urxvt, Kitty, Konsole etc) are all supported. 
+`terminal-colors/`. Currently supported terminals include Termite, Gnome, Iterm2, Konsole
+and any terminal that can read from `.Xresources` (Urxvt, Kitty etc) are all supported. 
+Clone this repo first and use the appropriate file inside `terminal-colors`.
 
-*Gnome:* Run `sh terminal-colors/skyfall-gnome.sh`
-*Iterm2:* Use the `terminal-colors/skyfall.itermcolors`
-*Termite:* Copy the contents of `terminal-colors/termite` into your Termite config.
-*Xresources:* For terminals that uses .X copy the contents of `terminal-colors/Xresources`
+- _Gnome:_ Run `sh terminal-colors/skyfall-gnome.sh`
+- _Iterm2:_ Use the `terminal-colors/skyfall.itermcolors`
+- _Termite:_ Copy the contents of `terminal-colors/termite` into your Termite config.
+- _Konsole:_ Copy the contents of `terminal-colors/skyfall-konsole` into your config.
+- _Xresources:_ For terminals that uses .X copy the contents of `terminal-colors/Xresources`
 into your corresponding Xresources file.
+- _Sublime Text:_ Use the xml file to configure the colors 
 
-After setting the correct terminal colors install the theme by running
- `<Package manager> 'rishikanthc/skyfall'` and set your colorscheme using.
+After setting the correct terminal colors install the theme by running and set your
+colorscheme using.
 ```viml
+<Package Manager> 'rishikanthc/skyfall-vim'
+
+
 set t_Co=16
 syntax enable
 colorscheme skyfall
