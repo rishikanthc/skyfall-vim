@@ -13,35 +13,35 @@ let g:colors_name = "skyfall"
 
 "}}}
 " Vim interface {{{
-hi Normal ctermfg=3
-hi LineNr ctermfg=0
-hi CursorLineNr ctermbg=NONE ctermfg=4 cterm=NONE
-hi CursorLine ctermbg=1 ctermfg=NONE cterm=NONE
-hi MatchParen ctermbg=None ctermfg=7 cterm=NONE
+hi Normal ctermfg=15
+hi LineNr ctermfg=8
+hi CursorLineNr ctermbg=NONE ctermfg=10 cterm=NONE
+hi CursorLine ctermbg=0 ctermfg=NONE cterm=NONE
+hi MatchParen ctermbg=None ctermfg=1 cterm=NONE
 hi TabLineSel ctermbg=NONE ctermfg=13
-hi Visual ctermbg=1 ctermfg=NONE
+hi Visual ctermbg=0 ctermfg=NONE
 hi Title ctermbg=NONE ctermfg=13
-hi Search ctermbg=1 ctermfg=12
-hi IncSearch ctermbg=1 ctermfg=12
-hi StatusLine ctermfg=NONE ctermfg=12
-hi VertSplit ctermbg=NONE ctermfg=0 cterm=NONE
-hi Folded ctermbg=NONE ctermfg=3
-hi Conceal ctermbg=NONE ctermfg=3 cterm=NONE
+hi Search ctermbg=0 ctermfg=4
+hi IncSearch ctermbg=0 ctermfg=4
+hi StatusLine ctermfg=NONE ctermfg=4
+hi VertSplit ctermbg=NONE ctermfg=8 cterm=NONE
+hi Folded ctermbg=NONE ctermfg=15
+hi Conceal ctermbg=NONE ctermfg=15 cterm=NONE
 
 "}}}
 " Language syntax {{{
-hi Identifier ctermfg=9 cterm=NONE
-hi Conditional ctermfg=2 cterm=NONE
-hi Operator ctermfg=14
-hi Statement ctermfg=15 cterm=NONE
-hi Repeat ctermfg=2 cterm=NONE
-hi Comment ctermfg=0 cterm=italic
-hi Type ctermfg=6 cterm=NONE
-hi Constant ctermfg=7
-hi Special ctermfg=7
-hi Todo ctermbg=NONE ctermfg=10
-hi PreProc ctermfg=9
-hi Error ctermbg=7 ctermfg=3 cterm=NONE
+hi Identifier ctermfg=14 cterm=NONE
+hi Conditional ctermfg=11 cterm=NONE
+hi Operator ctermfg=6
+hi Statement ctermfg=12 cterm=NONE
+hi Repeat ctermfg=11 cterm=NONE
+hi Comment ctermfg=8 cterm=italic
+hi Type ctermfg=5 cterm=NONE
+hi Constant ctermfg=1
+hi Special ctermfg=1
+hi Todo ctermbg=NONE ctermfg=3
+hi PreProc ctermfg=14
+hi Error ctermbg=1 ctermfg=15 cterm=NONE
 
 "}}}
 " html {{{
@@ -61,36 +61,36 @@ hi! link vimContinue  Delimiter
 hi! link vimHiAttrib  Constant
 "}}}
 " Markdown {{{
-hi markdownHeadingRule          ctermfg=9
+hi markdownHeadingRule          ctermfg=14
 hi! link markdownHeadingDelimiter   markdownHeadingRule
 hi! link markdownLinkDelimiter      Delimiter
 hi! link markdownURLDelimiter       Delimiter
 hi! link markdownCodeDelimiter      NonText
-hi markdownLinkDelimiter    ctermfg=15 ctermbg=NONE cterm=NONE
+hi markdownLinkDelimiter    ctermfg=12 ctermbg=NONE cterm=NONE
 hi! link markdownLinkTextDelimiter  markdownLinkDelimiter
-hi markdownLinkText         ctermfg=14 ctermbg=NONE cterm=bold,underline
+hi markdownLinkText         ctermfg=6 ctermbg=NONE cterm=bold,underline
 hi! link markdownUrl                markdownLinkText
 hi! link markdownUrlTitleDelimiter  markdownLinkText
 hi! link markdownAutomaticLink      markdownLinkText
 hi! link markdownIdDeclaration      markdownLinkText
-hi markdownCode                     ctermfg=4 ctermbg=NONE cterm=NONE
+hi markdownCode                     ctermfg=10 ctermbg=NONE cterm=NONE
 hi! link markdownCodeBlock          String
 hi! link markdownCodeBlock markdownCode
 hi! link markdownCodeDelimiter markdownCode
-hi markdownBold                     ctermfg=15 ctermbg=NONE cterm=bold
-hi markdownItalic                   ctermfg=5 ctermbg=NONE cterm=italic
-hi markdownBlockquote               ctermfg=15 ctermbg=NONE cterm=italic,bold
-hi markdownRule                     ctermfg=15 ctermbg=NONE cterm=italic,bold
+hi markdownBold                     ctermfg=12 ctermbg=NONE cterm=bold
+hi markdownItalic                   ctermfg=2 ctermbg=NONE cterm=italic
+hi markdownBlockquote               ctermfg=12 ctermbg=NONE cterm=italic,bold
+hi markdownRule                     ctermfg=12 ctermbg=NONE cterm=italic,bold
 
-hi markdownH1 ctermfg=9 ctermbg=NONE cterm=bold
-hi markdownH2 ctermfg=9 ctermbg=NONE cterm=bold
-hi markdownH3 ctermfg=15 ctermbg=NONE cterm=bold
-hi markdownH4 ctermfg=15 ctermbg=NONE cterm=bold
-hi markdownH5 ctermfg=15 ctermbg=NONE cterm=NONE
-hi markdownH6 ctermfg=15 ctermbg=NONE cterm=NONE
+hi markdownH1 ctermfg=14 ctermbg=NONE cterm=bold
+hi markdownH2 ctermfg=14 ctermbg=NONE cterm=bold
+hi markdownH3 ctermfg=12 ctermbg=NONE cterm=bold
+hi markdownH4 ctermfg=12 ctermbg=NONE cterm=bold
+hi markdownH5 ctermfg=12 ctermbg=NONE cterm=NONE
+hi markdownH6 ctermfg=12 ctermbg=NONE cterm=NONE
 
-hi markdownListMarker ctermfg=6 ctermbg=NONE cterm=bold
-hi markdownOrderedListMarker ctermfg=3 ctermbg=NONE cterm=bold
+hi markdownListMarker ctermfg=5 ctermbg=NONE cterm=bold
+hi markdownOrderedListMarker ctermfg=15 ctermbg=NONE cterm=bold
 
 "}}}
 
