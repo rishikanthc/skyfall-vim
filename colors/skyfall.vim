@@ -13,7 +13,7 @@ let g:colors_name = "skyfall"
 
 "}}}
 " Vim interface {{{
-hi Normal ctermfg=15
+hi Normal ctermfg=7
 hi LineNr ctermfg=8
 hi CursorLineNr ctermbg=NONE ctermfg=10 cterm=NONE
 hi CursorLine ctermbg=0 ctermfg=NONE cterm=NONE
@@ -25,14 +25,14 @@ hi Search ctermbg=0 ctermfg=4
 hi IncSearch ctermbg=0 ctermfg=4
 hi StatusLine ctermfg=NONE ctermfg=4
 hi VertSplit ctermbg=NONE ctermfg=8 cterm=NONE
-hi Folded ctermbg=NONE ctermfg=15
-hi Conceal ctermbg=NONE ctermfg=15 cterm=NONE
+hi Folded ctermbg=NONE ctermfg=7
+hi Conceal ctermbg=NONE ctermfg=7 cterm=NONE
 
 "}}}
 " Language syntax {{{
-hi Identifier ctermfg=14 cterm=NONE
+hi Identifier ctermfg=6 cterm=NONE
 hi Conditional ctermfg=11 cterm=NONE
-hi Operator ctermfg=6
+hi Operator ctermfg=15
 hi Statement ctermfg=12 cterm=NONE
 hi Repeat ctermfg=11 cterm=NONE
 hi Comment ctermfg=8 cterm=italic
@@ -40,8 +40,8 @@ hi Type ctermfg=5 cterm=NONE
 hi Constant ctermfg=1
 hi Special ctermfg=1
 hi Todo ctermbg=NONE ctermfg=3
-hi PreProc ctermfg=14
-hi Error ctermbg=1 ctermfg=15 cterm=NONE
+hi PreProc ctermfg=6
+hi Error ctermbg=1 ctermfg=7 cterm=NONE
 
 "}}}
 " html {{{
@@ -61,14 +61,14 @@ hi! link vimContinue  Delimiter
 hi! link vimHiAttrib  Constant
 "}}}
 " Markdown {{{
-hi markdownHeadingRule          ctermfg=14
+hi markdownHeadingRule          ctermfg=6
 hi! link markdownHeadingDelimiter   markdownHeadingRule
 hi! link markdownLinkDelimiter      Delimiter
 hi! link markdownURLDelimiter       Delimiter
 hi! link markdownCodeDelimiter      NonText
 hi markdownLinkDelimiter    ctermfg=12 ctermbg=NONE cterm=NONE
 hi! link markdownLinkTextDelimiter  markdownLinkDelimiter
-hi markdownLinkText         ctermfg=6 ctermbg=NONE cterm=bold,underline
+hi markdownLinkText         ctermfg=15 ctermbg=NONE cterm=bold,underline
 hi! link markdownUrl                markdownLinkText
 hi! link markdownUrlTitleDelimiter  markdownLinkText
 hi! link markdownAutomaticLink      markdownLinkText
@@ -82,7 +82,7 @@ hi markdownItalic                   ctermfg=2 ctermbg=NONE cterm=italic
 hi markdownBlockquote               ctermfg=12 ctermbg=NONE cterm=italic,bold
 hi markdownRule                     ctermfg=12 ctermbg=NONE cterm=italic,bold
 
-hi markdownH1 ctermfg=14 ctermbg=NONE cterm=bold
+hi markdownH1 ctermfg=6 ctermbg=NONE cterm=bold
 hi markdownH2 ctermfg=14 ctermbg=NONE cterm=bold
 hi markdownH3 ctermfg=12 ctermbg=NONE cterm=bold
 hi markdownH4 ctermfg=12 ctermbg=NONE cterm=bold
@@ -90,7 +90,7 @@ hi markdownH5 ctermfg=12 ctermbg=NONE cterm=NONE
 hi markdownH6 ctermfg=12 ctermbg=NONE cterm=NONE
 
 hi markdownListMarker ctermfg=5 ctermbg=NONE cterm=bold
-hi markdownOrderedListMarker ctermfg=15 ctermbg=NONE cterm=bold
+hi markdownOrderedListMarker ctermfg=7 ctermbg=NONE cterm=bold
 
 "}}}
 
