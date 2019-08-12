@@ -1,6 +1,4 @@
 [colors]
-
-# special
 foreground      = #d0d0d0
 foreground_bold = #d0d0d0
 cursor          = #d0d0d0
@@ -15,7 +13,7 @@ color1  = #ca7d85
 color9  = #ffba92
 
 # green
-color2  = #00b7a8
+color2  = #5fa06d
 color10 = #15cda8
 
 # yellow
@@ -28,12 +26,13 @@ color12 = #6fa0b4
 
 # magenta
 color5  = #b48ead
-color13 = #985eff
+color13 = #a675a1
 
 # cyan
-color6  = #c9d7f8
-color14 = #84bcbb
+color6  = #84bcbb
+color14 = #84dccf
 
 # white
-color7  = #5e6073
-color15 = #c6c6c6
+color7  = #c6c6c6
+color15 = #c9d7f8
+
