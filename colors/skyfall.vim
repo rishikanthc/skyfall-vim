@@ -23,10 +23,12 @@ hi Visual ctermbg=0 ctermfg=NONE
 hi Title ctermbg=NONE ctermfg=13
 hi Search ctermbg=0 ctermfg=4
 hi IncSearch ctermbg=0 ctermfg=4
-hi StatusLine ctermfg=NONE ctermfg=4
+hi StatusLine ctermbg=NONE ctermfg=4
 hi VertSplit ctermbg=NONE ctermfg=8 cterm=NONE
 hi Folded ctermbg=NONE ctermfg=7
 hi Conceal ctermbg=NONE ctermfg=7 cterm=NONE
+hi Pmenu ctermbg=0 ctermfg=5 cterm=NONE
+hi PmenuSel ctermbg=0 ctermfg=2 cterm=italic
 
 "}}}
 " Language syntax {{{
