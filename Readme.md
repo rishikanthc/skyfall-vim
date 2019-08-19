@@ -1,6 +1,6 @@
 # Skyfall.Vim
 
-Skyfall is a balanced colorscheme that's easy on the eyes, inspired by [Nord][1].
+Skyfall is a balanced colorscheme that's easy on the eyes.
 The theme uses low contrast colors and provides good readability while not being harsh on
 the eyes.
 
@@ -32,8 +32,10 @@ colorscheme skyfall
 
 # Screenshot
 
-![python](python.png)
+
+![python-half](python-half.png)
 ![lua](lua.png)
+![python](python.png)
 
 # ToDo
 - improve diff colors
