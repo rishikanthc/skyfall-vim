@@ -32,7 +32,8 @@ colorscheme skyfall
 
 # Screenshot
 
-![neovim](nvim.png)
+![python](python.png)
+![lua](lua.png)
 
 # ToDo
 - improve diff colors
