@@ -2,7 +2,7 @@
 
 Skyfall is a minimal balanced dark colorscheme for vim that's easy on the eyes.
 The theme uses low contrast colors and provides good readability while not being harsh on
-the eyes.
+the eyes. The theme supports italics and bold formatting as well.
 
 # Installation
 
