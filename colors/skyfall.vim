@@ -19,7 +19,9 @@ hi CursorLineNr ctermbg=NONE ctermfg=10 cterm=NONE
 hi CursorLine ctermbg=0 ctermfg=NONE cterm=NONE
 hi ColorColumn ctermbg=0 ctermfg=NONE cterm=NONE
 hi MatchParen ctermbg=None ctermfg=1 cterm=NONE
-hi TabLineSel ctermbg=NONE ctermfg=13
+hi TabLine ctermbg=10 ctermfg=0
+hi TabLineSel ctermbg=NONE ctermfg=15
+hi TabLineFill ctermbg=NONE ctermfg=15
 hi Visual ctermbg=0 ctermfg=NONE
 hi Title ctermbg=NONE ctermfg=13
 hi Search ctermbg=0 ctermfg=4
@@ -44,7 +46,7 @@ hi Constant ctermfg=9
 hi Special ctermfg=1
 hi Todo ctermbg=NONE ctermfg=3
 hi PreProc ctermfg=6
-hi Error ctermbg=1 ctermfg=15 cterm=NONE
+hi Error ctermbg=NONE ctermfg=1 cterm=NONE
 
 "}}}
 " html {{{

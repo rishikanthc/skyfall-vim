@@ -34,8 +34,8 @@ let s:p.normal.error = [ [ s:white, s:red ] ]
 let s:p.normal.warning = [ [ s:black, s:yellow ] ]
 let s:p.inactive.middle = [ [ s:black2, s:black ] ]
 
-let s:p.tabline.left = [ [ s:blue, s:black ] ]
-let s:p.tabline.tabsel = [ [ s:red, s:black ] ]
+let s:p.tabline.left = [ [ s:black2, s:green] ]
+let s:p.tabline.tabsel = [ [ s:black, s:green2] ]
 let s:p.tabline.middle = [ [ s:black, s:black ] ]
 let s:p.tabline.right = [ [ s:black, s:black ] ]
 
