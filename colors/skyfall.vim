@@ -30,8 +30,11 @@ hi StatusLine ctermbg=NONE ctermfg=4
 hi VertSplit ctermbg=NONE ctermfg=8 cterm=NONE
 hi Folded ctermbg=NONE ctermfg=15
 hi Conceal ctermbg=NONE ctermfg=15 cterm=NONE
-hi Pmenu ctermbg=0 ctermfg=5 cterm=NONE
-hi PmenuSel ctermbg=0 ctermfg=2 cterm=italic
+hi Pmenu ctermbg=0 ctermfg=13 cterm=NONE
+hi PmenuSel ctermbg=7 ctermfg=10 cterm=italic
+hi WarningMsg ctermbg=1 ctermfg=0
+hi Error ctermbg=1 ctermfg=0
+hi ErrorMsg ctermbg=1 ctermfg=0
 
 "}}}
 " Language syntax {{{
@@ -57,7 +60,7 @@ hi semshiGlobal ctermfg=11 cterm=NONE
 hi pythonRepeat ctermfg=11
 hi semshiErrorSign ctermfg=1 ctermbg=0
 hi semshiErrorChar ctermfg=1 ctermbg=0
-hi semshiSelected ctermfg=239 ctermbg=11
+hi semshiSelected ctermfg=0 ctermbg=11
 hi semshiUnresolved ctermfg=5
 " }}}
 " html {{{

@@ -2,9 +2,9 @@
 
 Skyfall is a minimal balanced dark colorscheme for vim that's easy on the eyes.
 The theme uses low contrast colors and provides good readability while not being harsh on
-the eyes. The theme supports italics and bold formatting as well.
+the eyes. The theme supports italics and bold formatting as well. Supports airline and lightline
 
-For best results for python use with semshi syntax highlighter plugin.
+For best results for python use with semshi syntax highlighter plugin. 
 
 # Installation
 
@@ -38,6 +38,11 @@ colorscheme skyfall
 ![python-half](python-half.png)
 ![lua](lua.png)
 ![python](python.png)
+
+# Supported Plugins
+- airline
+- lightline
+- semshi highlighter
 
 # ToDo
 - [] improve diff colors
