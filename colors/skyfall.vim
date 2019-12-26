@@ -49,6 +49,17 @@ hi PreProc ctermfg=6
 hi Error ctermbg=NONE ctermfg=1 cterm=NONE
 
 "}}}
+" python {{{
+hi! link pythonStatement Statement
+hi! link semshiBuiltin Statement
+hi! link semshiImported PreProc
+hi semshiGlobal ctermfg=11 cterm=NONE
+hi pythonRepeat ctermfg=11
+hi semshiErrorSign ctermfg=1 ctermbg=0
+hi semshiErrorChar ctermfg=1 ctermbg=0
+hi semshiSelected ctermfg=239 ctermbg=11
+hi semshiUnresolved ctermfg=5
+" }}}
 " html {{{
 hi htmlH1                   cterm=bold
 hi htmlBold                 cterm=bold

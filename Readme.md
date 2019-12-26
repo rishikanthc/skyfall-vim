@@ -4,6 +4,8 @@ Skyfall is a balanced colorscheme that's easy on the eyes.
 The theme uses low contrast colors and provides good readability while not being harsh on
 the eyes.
 
+For best results for python use with semshi syntax highlighter plugin.
+
 # Instructions
 
 This scheme uses terminal colors. The color settings for the terminals are present in
@@ -38,10 +40,11 @@ colorscheme skyfall
 ![python](python.png)
 
 # ToDo
-- improve diff colors
-- improve git colors
-- improve spell colors
-- Add support for NerdTree and other popular plugins
+- [] improve diff colors
+- [] improve git colors
+- [x] improve spell colors
+- [x] Support for semshi python highlighter
+- [] Add support for NerdTree and other popular plugins
 
 [1]: https://github.com/arcticicestudio/nord-vim
 
